@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.header {
+}
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-box {
+    margin-top: 40px;
+}
+.header-inner {
+}
+.header-box2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header-link {
+    color: #000;
+}
+.header-h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.83px;
+    text-align: left;   
+    color: #000; 
+}
+.header-h4-2 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;   
+    background: #00868A;
+    padding-top: 13px;
+    padding-bottom: 13px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.header-img-item {
+    margin-left: 20px;
+}
+/* header  */
+/* hero  */
+.hero-box {
+    background: #4FBFA5;
+    padding-top: 30px;
+    background-image: url(./picture2/Rectangle\ 7.png), url(./picture2/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 40%) calc(40%), calc(50% - 15%) calc(80%);
+    background-size: 50%, 10%;
+}
+
+.hero-list {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+.hero-link {
+    color:white ;
+}
+.hero-btn {
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+.hero-h1 {
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;  
+    color: white; 
+    margin-top: 162px; 
+    margin-left: 20px;
+}
+.hero-text {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;    
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.hero-btn2 {
+    padding: 15px 26px;
+    background: #00868A;
+    border: none;
+    color: white;
+    width: Hug (163px)px;
+    height: Hug (50px)px;
+    top: 526px;
+    left: 312px;
+    padding: 15px 25px 14px 25px;
+    gap: 10px;
+    opacity: 0px;   
+    margin-top: 18px;   
+    margin-bottom: 250px; 
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.hero-btn2:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+/* hero  */
+
+
+/* work */
+
+/* .work-box {
+    margin-top: 30px;
+}
+.work-inner {
+    background: #00868A;
+    padding-left: 40px;
+    align-items: center;
+}
+.work-btn1 {
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 35px;
+}
+.work-h2 {
+    font-family: Gilroy;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;    
+}
+.div-item {
+    display: flex;
+}
+.work-text {
+}
+
+
+.work-box2 {
+    margin-left: 800px; 
+}
+.work-btn2 {
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 35px;
+}
+.work-h3 {
+    margin-top: 40px;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;    
+}
+.work-h3:hover {
+    color: #000;
+    font-size: 30px;
+}
+
+
+.work-box3 {
+}
+.work-btn3 {
+}
+.work-h2-2 {
+}
+.work-text2 {
+} */
+/* work */
+
+
+/* index */
+.index-box {
+    margin-top: 50px;
+}
+.index-inner {
+
+}
+.index-h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;    
+}
+.index-box2 {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+.index-item {
+    background-image: url(./picture4/Rectangle\ 23-2.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 230px;
+}
+.index-btn {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    background: #4FBFA5;
+    border: none;
+    border-radius: 8px;
+    font-family: roboto;
+    color: white;
+}
+.index-h4 {
+    margin-top: 148px;
+    background-color: #00868A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    align-items: center;
+    font-family: roboto;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: left;
+    color: white;
+}
+/* index */
+/* html */
+.html-main {
+}
+.container {
+}
+.html-box {
+    margin-top: 150px;
+}
+.html-inner {
+    
+}
+.html-box2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+.html-box3 {
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+.html-h2 {
+}
+.html-text {
+}
+/* html */
